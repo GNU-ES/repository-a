@@ -13,10 +13,6 @@
         config = { allowUnfree = true; };
       };
 
-      #myExampleFlake = import ./default.nix {
-      #  pkgs = pkgs;
-      #};
-
     minimalUtils = with pkgs; [ coreutils
                                 which
                                 findutils
