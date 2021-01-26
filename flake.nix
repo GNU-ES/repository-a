@@ -20,7 +20,7 @@
                                 nixpkgs-fmt
                                 neovim
                                 nano
-                                hello
+                                hello.defaultPackage.${system}
                                 ];
     in
     {
